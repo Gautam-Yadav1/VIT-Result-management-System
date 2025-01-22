@@ -29,4 +29,4 @@ mongoose
   .then(() =>
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
   )
-  .catch((error) => console.log("Mongo Error", error.message));
+  .catch((error) => console.log("Mongo Errors", error.message));
